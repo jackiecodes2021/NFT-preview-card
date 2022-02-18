@@ -1,7 +1,101 @@
+*{
+    font-family: Outfit;
+}
 body{
-    background-color: navy;
+    background-color: hsl(217, 54%, 11%);
 }
 
-.container{
-    background-color: pink;
+main{
+    display: flex;
+    justify-content: center;
+    margin: 8rem;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#nft{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#nft:hover{
+    background-image: url("images/active-states.jpg");
+
+}
+
+#title{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#title:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.cont-p{
+    color:hsl(215, 51%, 70%);
+    padding-bottom: 25px;
+} 
+
+.card-footer-grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+#eth{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-content: center;
+    align-self: center;
+    font-weight: bold;
+}
+
+#time{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+
+}
+
+#icon{
+    padding-right: 10px;
+    display: flex;
+    align-self: center;
+}
+
+.credit-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr ;
+}
+
+#avatar{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50% ;
+}
+
+#author{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    font-size: 14px;
+}
+
+#author:hover{
+    color: hsl(178, 100%, 50%);
+
 }

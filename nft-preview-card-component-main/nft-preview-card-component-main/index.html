@@ -8,7 +8,10 @@
   
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | NFT preview card component</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+  
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -18,36 +21,43 @@
 <body>
   <!-- <h1>Hello World</h1> -->
   <main>
-    <div class="container">
-      <img src="images/image-equilibrium.jpg" alt="mft-image of cubic prism">
-      <h1>
-        Equilibrium #3429
-      </h1>
-    
-      Our Equilibrium collection promotes balance and calm.
-    
-      <div class="card-footer">
+    <div class="card">
+      <img class="nft" id="nft" src="images/image-equilibrium.jpg" alt="mft-image of cubic prism">
+      <p id="title">Equilibrium #3429</p>
+      <div class="cont-p">
+        Our Equilibrium collection promotes balance and calm.
+      </div>
+
+      <div class="card-footer-grid">
         <div id="eth">
-          <img src="images/icon-ethereum.svg">
+          <img id="icon" src="images/icon-ethereum.svg">
           0.041 ETH
         </div>
-  
         <div id="time">
-          <img src="images/icon-clock.svg">
+          <img id="icon" src="images/icon-clock.svg">
           3 days left
         </div>
-  
-
       </div>
-      <img src="images/image-avatar.png" alt="avatar">
-      Creation of Jackie Codes
+
+      <hr>
+
+      <div class="credit-grid">
+          <img id="avatar" src="images/image-avatar.png" alt="avatar">
+          <div id="author">
+            Creation of Jackie Codes
+          </div>
+      </div>
+
+
+
+    </div>
+  
     
-      <div class="attribution">
+      <!-- <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="#">Jackie Codes</a>.
-      </div>
+      </div> -->
   
-    </div>
   
   </main>
   
